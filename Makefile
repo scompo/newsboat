@@ -127,7 +127,7 @@ TEXTCONV=./txt2h
 RM=rm -f
 CP=cp -f
 
-all: doc $(NEWSBOAT) $(PODBOAT) mo-files
+all: $(NEWSBOAT) $(PODBOAT) mo-files
 
 NB_DEPS=xlicense.h $(LIB_OUTPUT) $(FILTERLIB_OUTPUT) $(NEWSBOAT_OBJS) $(RSSPPLIB_OUTPUT) $(NEWSBOATLIB_OUTPUT)
 
